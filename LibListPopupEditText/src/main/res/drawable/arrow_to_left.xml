@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="28dp"
+    android:viewportHeight="28"
+    android:viewportWidth="28"
+    android:layout_gravity = "center"
+    android:width="28dp">
+
+    <path
+        android:fillColor="@color/cardview_dark_background"
+        android:pathData="M8,14L21,25L21,3Z"/>
+<!-- "M8,14L21,25L21,3Z"   "M3,10L14,20L25,10H7Z"-->
+</vector>
