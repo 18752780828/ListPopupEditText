@@ -12,6 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "ListPopupEditText"
 include ':app'
 include ':LibListPopupEditText'
