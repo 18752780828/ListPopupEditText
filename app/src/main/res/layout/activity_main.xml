@@ -20,13 +20,12 @@
             android:textSize="18sp"
             android:text="宠物名:" />
 
-        <com.ksw.liblistpopupedittext.ListPopupEditText
+        <com.ksw.listpopupedittext.ListPopupEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/listPetName"
             android:textColor="@color/black"/>
 
     </TableRow>
-
 
 </LinearLayout>
