@@ -10,7 +10,7 @@ import androidx.appcompat.widget.AppCompatEditText
 import androidx.appcompat.widget.ListPopupWindow
 import androidx.core.content.ContextCompat
 
-public class ListPopupEditTextKotlin (context: Context, attrs: AttributeSet) : AppCompatEditText(context, attrs) {
+public class ListPopupEditTextKl (context: Context, attrs: AttributeSet) : AppCompatEditText(context, attrs) {
     private val popupWindow: ListPopupWindow = ListPopupWindow(context)
     private var arrowDownDrawable: Drawable? = null
     private var arrowLeftDrawable: Drawable? = null
