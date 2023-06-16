@@ -1,15 +1,15 @@
-package com.ksw.dropEditText
+package com.ksw.dropEditText.example
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ksw.dropEditText.databinding.ActivityMainBinding
+import com.ksw.dropEditText.example.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private val petNames = listOf("大橘","狸花","三花","奶牛","柯基","金毛")
     private lateinit var viewBind : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewBind= ActivityMainBinding.inflate(layoutInflater);
+        viewBind= ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBind.root)
         viewBind.listPetName.setItems(petNames)
 

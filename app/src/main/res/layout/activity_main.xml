@@ -20,7 +20,7 @@
             android:textSize="18sp"
             android:text="宠物名:" />
 
-        <com.ksw.listpopupedittext.ListPopupEditText
+        <com.ksw.listpopupedittext.DropEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/listPetName"
